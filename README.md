@@ -63,7 +63,7 @@ Colour data extracted from a movie barcode can be analyzed in either the LCH(ab)
 * Chroma trend: the trend in chroma over successive frames in a barcode
 * Lightness trend: the trend in lightness over successive frames in a barcode
 
-In the L*a*b* colour space you can select from the following visualisations:
+In the L\*a\*b* colour space you can select from the following visualisations:
 
 * a*, b*, and Lightness histograms: the distribution of values for the different colour attributes
 * a vs b - scatterplot: a cartesian plot of with a* on the x-axis and b* on the y-axis
