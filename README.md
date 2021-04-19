@@ -30,7 +30,7 @@ Everytime you want to run **MovieBarcodeAnalyzeR** use the following code to ini
 ```R
 library(shiny)
 
-runGithub("MovieBarcodeAnalyzeR", "DrNickRedfern")
+runGitHub("MovieBarcodeAnalyzeR", "DrNickRedfern")
 ```
 Again, you can simply copy-and-paste this code to the console in RStudio and hit `Enter` to start the app.
 
