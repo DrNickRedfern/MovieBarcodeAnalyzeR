@@ -6,9 +6,9 @@ Movie barcodes are a commonly used method of visualizing colour in motion pictur
 
 ![escape_room](/images/escape_room_unsmoothed.png)
 
-The goal of **MovieBarcodeAnalyzeR** is to open up computational approaches to analyzing colour in the cinema to users with no experience of using the statistical programming language R. With this app you can upload your movie barcode, extract and download data, and produce a range of visualizations and summaries in just a few minutes with no coding required.
+The goal of **MovieBarcodeAnalyzeR** is to open up computational approaches to analyzing colour in the cinema to users with no experience of using the statistical programming language R. With this app you can upload your movie barcode, extract and download data, and produce a range of visualizations and summaries in just a few minutes with no coding required. 
 
-## Pre-requisties
+## Set up and use the app
 There are four things you will need in order to use **MovieBarcodeAnalyzeR**: R, Rstudio, a collection of R packages, and the code to initialise the app. All of the software and code required to run the app is freely available.
 
 ### Step 1: install R
@@ -33,7 +33,7 @@ You can copy and paste the above code into the console (highlighted below) in RS
 ### Step 4: run MovieBarcodeAnalyzeR
 You only need to complete steps 1 through 3 the first time you run **MovieBarcodeAnalyzeR**.
 
-Everytime you want to run **MovieBarcodeAnalyzeR** use the following code to initialise the app (note that in R, object names are *case sensitive* and must be entered correctly in order to run):
+Anytime you want to run **MovieBarcodeAnalyzeR** use the following code to initialise the app (note that in R, object names are *case sensitive* and must be entered correctly in order to run):
 
 ```R
 shiny::runGitHub('MovieBarcodeAnalyzeR', 'DrNickRedfern', ref = "main")
