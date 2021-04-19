@@ -1,10 +1,19 @@
 # MovieBarcodeAnalyzeR
 
+Analyzing colour in motion pictures is a computationally intensive process. It is therefore necessary to reduce the number of data points to something manageable with the computational resources of a desktop computer or laptop.
+
+The workflow involved in analysing colour in the cinema involves two stages:
+
+* Sampling: selecting frames for inclusion in an analysis based on their timecode (every *n*-th frame or *n* frames per second) or their representativeness based on the segmentation of a film into coherent sequences.
+* Data reduction: the pixels in a frame are reduced to a single value or a small set of values that are usually based on either the average or dominant colour of the pixels, or the representativeness of a set of exemplar colours in a palette based on clustering methods.
+
+A movie barcode is a common method of sampling frames from a film and reducing the amount of pixel information of a frame to manageable level (usually) by averaging that is then arranged in an aesthetically pleasing way. Because the colours are directly derived from a film and a presented in the order in which they were sampled, a movie barcode contains both colour and temporal information about a film that we can extract and use in our analysis.
+
 **MovieBarcodeAnalyzeR** is a shiny app for extracting and visualizing colour data from movie barcodes.
 
 ![app_demo](/images/MBA_demo.png)
 
-Movie barcodes are a commonly used method of visualizing colour in motion pictures and contain a wealth of information that can be used for further analysis. The goal of **MovieBarcodeAnalyzeR** is to open up computational approaches to analyzing colour in the cinema to users with no experience of using the statistical programming language R. With this app you can upload your movie barcode, extract and download data, and produce a range of visualizations and summaries in just a few minutes with no coding required. 
+The goal of **MovieBarcodeAnalyzeR** is to open up computational approaches to analyzing colour in the cinema to users with no experience of using the statistical programming language R. With this app you can upload your movie barcode, extract and download data, and produce a range of visualizations and summaries in just a few minutes with no coding required. 
 
 ## Set up and use the app
 There are four things you will need in order to use **MovieBarcodeAnalyzeR**: R, Rstudio, a collection of R packages, and the code to initialise the app. All of the software and code required to run the app is freely available.
@@ -15,7 +24,7 @@ To download R, go to the [Comprehensive R Archive Network (CRAN)](https://cran.r
 ### Step 2: install RStudio
 RStudio is an integrated development environment (IDE) for R. Select the latest release of RStudio for your system at [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/).
 
-Once installed, open Rstudio to complete the next steps.
+Once installed, open RStudio to complete the next steps.
 
 ### Step 3: install required packages
 A *package* is a collection of functions that extends the base install of R. To run **MovieBarcodeAnalyzeR** you will need to install the following packages using the code below:
@@ -40,15 +49,8 @@ Again, you can simply copy-and-paste this code to the console in RStudio and hit
 
 Once **MovieBarcodeAnalyzeR** is running, no coding is required to use the app.
 
-## MovieBarcodeAnalyzeR
-Analyzing colour in motion pictures is a computationally intensive process. It is therefore necessary to reduce the number of data points to something manageable with the computational resources of a desktop computer or laptop.
-
-The workflow involved in analysing colour in the cinema involves two stages:
-
-* Sampling: selecting frames for inclusion in an analysis based on their timecode (every *n*-th frame or *n* frames per second) or their representativeness based on the segmentation of a film into coherent sequences.
-* Data reduction: the pixels in a frame are reduced to a single value or a small set of values that are usually based on either the average or dominant colour of the pixels, or the representativeness of a set of exemplar colours in a palette based on clustering methods.
-
-A movie barcode is a common method of sampling frames from a film and reducing the amount of pixel information of a frame to manageable level (usually) by averaging that is then arranged in an aesthetically pleasing way. Because the colours are directly derived from a film and a presented in the order in which they were sampled, a movie barcode contains both colour and temporal information about a film that we can extract and use in our analysis.
+### Visualize your data
+On the *Analyze* page you can upload your movie barcode and select from a range of visualizations that you can then download for use in an assignment or research article. You can also download the data from your barcode for further analysis.
 
 Movie barcodes uploaded to **MovieBarcodeAnalyzeR** can be *unsmoothed*, in which the pixel data for the rows of sampled frame is reduced by averaging to a column the width of a single pixel; or they can be *smoothed* by averaging the values of each column of the unsmoothed barcode.
 
