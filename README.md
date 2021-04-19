@@ -30,5 +30,6 @@ library(shiny)
 
 runGithub("MovieBarcodeAnalyzeR", "DrNickRedfern")
 ```
-Again, you can simply copy-and-paste this code to the consle in RStudio and hit `Enter` to start the app.
-Once running, no coding is required to use the app.
+Again, you can simply copy-and-paste this code to the console in RStudio and hit `Enter` to start the app.
+
+Once **MovieBarcodeAnalyzeR** is running, no coding is required to use the app.
