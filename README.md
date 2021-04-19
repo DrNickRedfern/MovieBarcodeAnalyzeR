@@ -2,11 +2,9 @@
 
 **MovieBarcodeAnalyzeR** is a shiny app for extracting and visualizing colour data from movie barcodes.
 
-Movie barcodes are a commonly used method of visualizing colour in motion pictures and contain a wealth of information that can be used for further analysis. 
+![app_demo](/images/MBA_demo.png)
 
-![escape_room](/images/escape_room_unsmoothed.png)
-
-The goal of **MovieBarcodeAnalyzeR** is to open up computational approaches to analyzing colour in the cinema to users with no experience of using the statistical programming language R. With this app you can upload your movie barcode, extract and download data, and produce a range of visualizations and summaries in just a few minutes with no coding required. 
+Movie barcodes are a commonly used method of visualizing colour in motion pictures and contain a wealth of information that can be used for further analysis. The goal of **MovieBarcodeAnalyzeR** is to open up computational approaches to analyzing colour in the cinema to users with no experience of using the statistical programming language R. With this app you can upload your movie barcode, extract and download data, and produce a range of visualizations and summaries in just a few minutes with no coding required. 
 
 ## Set up and use the app
 There are four things you will need in order to use **MovieBarcodeAnalyzeR**: R, Rstudio, a collection of R packages, and the code to initialise the app. All of the software and code required to run the app is freely available.
@@ -43,9 +41,37 @@ Again, you can simply copy-and-paste this code to the console in RStudio and hit
 Once **MovieBarcodeAnalyzeR** is running, no coding is required to use the app.
 
 ## MovieBarcodeAnalyzeR
-The app contains details on how data is processed and visualized.
+Analyzing colour in motion pictures is a computationally intensive process. It is therefore necessary to reduce the number of data points to something manageable with the computational resources of a desktop computer or laptop.
 
-![app_demo](/images/MBA_demo.png)
+The workflow involved in analysing colour in the cinema involves two stages:
+
+* Sampling: selecting frames for inclusion in an analysis based on their timecode (every n -th frame or n frames per second) or their representativeness based on the segmentation of a film into coherent sequences.
+* Data reduction: the pixels in a frame are reduced to a single value or a small set of values that are usually based on either the average or dominant colour of the pixels, or the representativeness of a set of exemplar colours in a palette based on clustering methods.
+
+A movie barcode is a common method of sampling frames from a film and reducing the amount of pixel information of a frame to manageable level (usually) by averaging that is then arranged in an aesthetically pleasing way. Because the colours are directly derived from a film and a presented in the order in which they were sampled, a movie barcode contains both colour and temporal information about a film that we can extract and use in our analysis.
+
+Movie barcodes uploaded to **MovieBarcodeAnalyzeR** can be *unsmoothed*, in which the pixel data for the rows of sampled frame is reduced by averaging to a column the width of a single pixel; or they can be *smoothed* by averaging the values of each column of the unsmoothed barcode.
+
+Colour data extracted from a movie barcode can be analyzed in either the LCH(ab) or L*a*b* colour spaces. In the LCH(ab) colour space you can select from the following visualisations:
+
+* Hue, Chroma, and Lightness histograms: the distribution of values for the different colour attributes
+* Hue vs Chroma - polar: a polar plot with hue represented as the angle on the colour wheel and chroma as the distance from the centre of the wheel
+* Hue vs Chroma - cartesian: a scatterplot with hue on the x-axis and chroma on the y-axis
+* Chroma vs Lightness: a scatterplot plot with chroma of the x-axis and lightness on the y-axis
+* Chroma trend: the trend in chroma over successive frames in a barcode
+* Lightness trend: the trend in lightness over successive frames in a barcode
+
+In the L*a*b* colour space you can select from the following visualisations:
+
+* a*, b*, and Lightness histograms: the distribution of values for the different colour attributes
+* a vs b - scatterplot: a cartesian plot of with a* on the x-axis and b* on the y-axis
+* a vs b - density plot: a 2-d density plot showing the concentration of data points in the plane defined by a* and b. This plot is useful as many pixels in a barcode will have the same values for a* and b* (e.g., all achromatic pixels) and so will not be visible in the scatterplot.
+
+k-means clustering is used to construct a palette of up to twenty colours for a barcode by sorting *n* objects (i.e., pixels) into *k* clusters (i.e., colours) so that each object belongs to a cluster, the mean of which functions as a protype representing all the objects in that cluster. A range of descriptive statistics quantifying the richness, diversity, and evennes of a palette are provided.
+
+
 
 ## Try out the app
 If you would like to try out **MovieBarcodeAnalyzeR** I have included the smoothed and unsmoothed barcodes of the trailer for *Escape Room* in the images folder of this repository that you can download.
+
+![escape_room](/images/escape_room_unsmoothed.png)
