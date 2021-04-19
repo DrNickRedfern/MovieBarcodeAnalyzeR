@@ -30,7 +30,10 @@ welcome <- tabPanel(
                                        tags$h4("Citing MovieBarcodeAnalyzeR"),
                                        p("If you use find this app useful as part of your research, please cite it using the following reference:"),
                                        tags$ul(
-                                         tags$li("Redfern, N. (2021) MovieBarcodeAnalyzeR")
+                                         tags$li("Redfern, N. (2021) DrNickRedfern/MovieBarcodeAnalyzeR: MovieBarcodeAnalyzeR (Version v0.1.0). Zenodo. http://doi.org/10.5281/zenodo.4701549."),
+                                         tags$br(),
+                                         p(tags$a(href = "https://doi.org/10.5281/zenodo.4701549", 
+                                                  img(src="https://zenodo.org/badge/DOI/10.5281/zenodo.4701549.svg")))
                                        )
                                 ),
                                 column(6, 
