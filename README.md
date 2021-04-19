@@ -54,7 +54,7 @@ On the *Analyze* page you can upload your movie barcode and select from a range 
 
 Movie barcodes uploaded to **MovieBarcodeAnalyzeR** can be *unsmoothed*, in which the pixel data for the rows of sampled frame is reduced by averaging to a column the width of a single pixel; or they can be *smoothed* by averaging the values of each column of the unsmoothed barcode.
 
-Colour data extracted from a movie barcode can be analyzed in either the LCH(ab) or L*a*b* colour spaces. In the LCH(ab) colour space you can select from the following visualisations:
+Colour data extracted from a movie barcode can be analyzed in either the LCH(ab) or L\*a\*b* colour spaces. In the LCH(ab) colour space you can select from the following visualisations:
 
 * Hue, Chroma, and Lightness histograms: the distribution of values for the different colour attributes
 * Hue vs Chroma - polar: a polar plot with hue represented as the angle on the colour wheel and chroma as the distance from the centre of the wheel
