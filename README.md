@@ -23,6 +23,7 @@ You can copy and paste the above code into the console in RStudio and press `Ent
 
 ### Step 4: run MovieBarcodeAnalyzeR
 You only need to complete steps 1 through 3 the first time you run **MovieBarcodeAnalyzeR**.
+
 Everytime you want to run **MovieBarcodeAnalyzeR** use the following code to initialise the app (note that in R, object names are *case sensitive* and must be entered correctly in order to run):
 
 ```R
