@@ -1,5 +1,7 @@
 # MovieBarcodeAnalyzeR
 
+**This app is currently being tested and so is not quite ready for use. Please check back in a couple of days once I've had a chnace to iron out some bugs**
+
 **MovieBarcodeAnalyzeR** is a shiny app for extracting and visualizing colour data from movie barcodes.
 
 ## Pre-requisties
