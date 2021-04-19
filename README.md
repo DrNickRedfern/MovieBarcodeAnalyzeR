@@ -33,3 +33,6 @@ shiny::runGitHub('MovieBarcodeAnalyzeR', 'DrNickRedfern', ref = "main")
 Again, you can simply copy-and-paste this code to the console in RStudio and hit `Enter` to start the app.
 
 Once **MovieBarcodeAnalyzeR** is running, no coding is required to use the app.
+
+## Try out the app
+If you would like to try out **MovieBarcodeAnalyzeR** I have included the smoothed and unsmoothed barcodes of the trailer for *Escape Room* in the images folder of this repository.
