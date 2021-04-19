@@ -45,7 +45,7 @@ Analyzing colour in motion pictures is a computationally intensive process. It i
 
 The workflow involved in analysing colour in the cinema involves two stages:
 
-* Sampling: selecting frames for inclusion in an analysis based on their timecode (every n -th frame or n frames per second) or their representativeness based on the segmentation of a film into coherent sequences.
+* Sampling: selecting frames for inclusion in an analysis based on their timecode (every *n*-th frame or *n* frames per second) or their representativeness based on the segmentation of a film into coherent sequences.
 * Data reduction: the pixels in a frame are reduced to a single value or a small set of values that are usually based on either the average or dominant colour of the pixels, or the representativeness of a set of exemplar colours in a palette based on clustering methods.
 
 A movie barcode is a common method of sampling frames from a film and reducing the amount of pixel information of a frame to manageable level (usually) by averaging that is then arranged in an aesthetically pleasing way. Because the colours are directly derived from a film and a presented in the order in which they were sampled, a movie barcode contains both colour and temporal information about a film that we can extract and use in our analysis.
@@ -68,8 +68,6 @@ In the L*a*b* colour space you can select from the following visualisations:
 * a vs b - density plot: a 2-d density plot showing the concentration of data points in the plane defined by a* and b. This plot is useful as many pixels in a barcode will have the same values for a* and b* (e.g., all achromatic pixels) and so will not be visible in the scatterplot.
 
 k-means clustering is used to construct a palette of up to twenty colours for a barcode by sorting *n* objects (i.e., pixels) into *k* clusters (i.e., colours) so that each object belongs to a cluster, the mean of which functions as a protype representing all the objects in that cluster. A range of descriptive statistics quantifying the richness, diversity, and evennes of a palette are provided.
-
-
 
 ## Try out the app
 If you would like to try out **MovieBarcodeAnalyzeR** I have included the smoothed and unsmoothed barcodes of the trailer for *Escape Room* in the images folder of this repository that you can download.
