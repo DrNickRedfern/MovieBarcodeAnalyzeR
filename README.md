@@ -45,5 +45,7 @@ Once **MovieBarcodeAnalyzeR** is running, no coding is required to use the app.
 ## MovieBarcodeAnalyzeR
 The app contains details on how data is processed and visualized.
 
+![app_demo](/images/MBA_demo.png)
+
 ## Try out the app
 If you would like to try out **MovieBarcodeAnalyzeR** I have included the smoothed and unsmoothed barcodes of the trailer for *Escape Room* in the images folder of this repository that you can download.
