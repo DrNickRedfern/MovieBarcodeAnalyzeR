@@ -1,7 +1,5 @@
 # MovieBarcodeAnalyzeR
 
-**This app is currently being tested and so is not quite ready for use. Please check back in a couple of days once I've had a chnace to iron out some bugs**
-
 **MovieBarcodeAnalyzeR** is a shiny app for extracting and visualizing colour data from movie barcodes.
 
 ## Pre-requisties
@@ -30,9 +28,7 @@ You only need to complete steps 1 through 3 the first time you run **MovieBarcod
 Everytime you want to run **MovieBarcodeAnalyzeR** use the following code to initialise the app (note that in R, object names are *case sensitive* and must be entered correctly in order to run):
 
 ```R
-library(shiny)
-
-runGitHub("MovieBarcodeAnalyzeR", "DrNickRedfern")
+shiny::runGitHub('MovieBarcodeAnalyzeR', 'DrNickRedfern', ref = "main")
 ```
 Again, you can simply copy-and-paste this code to the console in RStudio and hit `Enter` to start the app.
 
