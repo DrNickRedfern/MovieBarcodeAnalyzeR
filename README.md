@@ -19,6 +19,7 @@ install.packages(c("shiny", "shinycssloaders", "shinythemes", "tidyverse", "imag
 ```
 
 You can copy and paste the above code into the console in RStudio and press `Enter`.
+
 ![RStudio console](/images/RStudio_console.png)
 
 ### Step 4: run MovieBarcodeAnalyzeR
