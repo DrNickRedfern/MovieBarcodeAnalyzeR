@@ -1,5 +1,7 @@
 # MovieBarcodeAnalyzeR
 
+[https://github.com/DrNickRedfern/MovieBarcodeAnalyzeR](https://github.com/DrNickRedfern/MovieBarcodeAnalyzeR)
+
 Analyzing colour in motion pictures is a computationally intensive process. It is therefore necessary to reduce the number of data points to something manageable with the computational resources of a desktop computer or laptop.
 
 The workflow involved in analysing colour in the cinema involves two stages:
