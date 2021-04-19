@@ -18,7 +18,7 @@ A *package* is a collection of functions that extends the base install of R. To 
 install.packages(c("shiny", "shinycssloaders", "shinythemes", "tidyverse", "imager", "grid", "viridis", "ggpubr", "treemapify", "entropy", "farver", "fpc"))
 ```
 
-You can copy and paste the above code into the console in RStudio and press `Enter`.
+You can copy and paste the above code into the console (highlighted below) in RStudio and press `Enter`.
 
 ![RStudio console](/images/RStudio_console_2.png)
 
