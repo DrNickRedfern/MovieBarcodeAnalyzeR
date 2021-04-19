@@ -6,7 +6,7 @@ Movie barcodes are a commonly used method of visualizing colour in motion pictur
 
 ![escape_room](/images/escape_room_unsmoothed.png)
 
-The goal of MovieBarcodeAnalyzeR is to open up computational approaches to analyzing colour in the cinema to users with no experience of using the statistical programming language R. With this app you can upload your movie barcode, extract and download data, and produce a range of visualizations and summaries in just a few minutes with no coding required.
+The goal of **MovieBarcodeAnalyzeR** is to open up computational approaches to analyzing colour in the cinema to users with no experience of using the statistical programming language R. With this app you can upload your movie barcode, extract and download data, and produce a range of visualizations and summaries in just a few minutes with no coding required.
 
 ## Pre-requisties
 There are four things you will need in order to use **MovieBarcodeAnalyzeR**: R, Rstudio, a collection of R packages, and the code to initialise the app. All of the software and code required to run the app is freely available.
