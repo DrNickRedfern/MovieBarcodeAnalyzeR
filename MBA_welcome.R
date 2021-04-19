@@ -66,8 +66,7 @@ welcome <- tabPanel(
                                          style = "vertical-align: middle; font-size: 24px; padding-right: 12px; padding-bottom: 5px;"), tags$a(href = "https://computationalfilmanalysis.wordpress.com", "https://computationalfilmanalysis.wordpress.com")),
                                        tags$hr(style = "border-color: #446e9b;"),
                                        tags$h4("License"),
-                                       p(tags$a(href = "https://www.gnu.org/licenses/gpl-3.0.html", "GNU General Public License Version 3 (GPLv3).")),
-                                       p("Copyright (C) 2021  Nick Redfern"),
+                                      p("Copyright (C) 2021  Nick Redfern"),
                                       p("This program is free software: you can redistribute it and/or modify it under the terms of the GNU General 
                                          Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) 
                                          any later version."),
