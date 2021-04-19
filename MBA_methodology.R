@@ -150,7 +150,7 @@ methodology <- tabPanel(
                                          withMathJax("$$S_{E} = \\frac{S^{'}}{k}$$")
                                        ),
                                        tags$br(),
-                                       p("For more information on these different indices see Heip, C. H. R., Herman, P. M. J., and Soetaert, K. (1998) ", tags$a(href = "https://www.semanticscholar.org/paper/Indices-of-diversity-and-evenness-Heip-Herman/4a720e577a35cf74505b9ffae42f03b3ffecb371", "Indices of diversity and evenness"), ", ", tags$i("Oc?anis"), "24 (4): 61-87.")
+                                       p("For more information on these different indices see Heip, C. H. R., Herman, P. M. J., and Soetaert, K. (1998) ", tags$a(href = "https://www.semanticscholar.org/paper/Indices-of-diversity-and-evenness-Heip-Herman/4a720e577a35cf74505b9ffae42f03b3ffecb371", "Indices of diversity and evenness"), ", ", tags$i("Oc\u00E9anis"), "24 (4): 61-87.")
                                 )
                        )
               )
