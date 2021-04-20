@@ -69,7 +69,7 @@ In the L\*a\*b* colour space you can select from the following visualisations:
 * a vs b - scatterplot: a cartesian plot of with a* on the x-axis and b* on the y-axis
 * a vs b - density plot: a 2-d density plot showing the concentration of data points in the plane defined by a* and b. This plot is useful as many pixels in a barcode will have the same values for a* and b* (e.g., all achromatic pixels) and so will not be visible in the scatterplot.
 
-k-means clustering is used to construct a palette of up to twenty colours for a barcode by sorting *n* objects (i.e., pixels) into *k* clusters (i.e., colours) so that each object belongs to a cluster, the mean of which functions as a protype representing all the objects in that cluster. A range of descriptive statistics quantifying the richness, diversity, and evennes of a palette are provided.
+k-means clustering is used to construct a palette of up to twenty colours for a barcode by sorting *n* objects (i.e., pixels) into *k* clusters (i.e., colours) so that each object belongs to a cluster, the mean of which functions as a protype representing all the objects in that cluster. A range of descriptive statistics quantifying the richness, diversity, and evenness of a palette are provided.
 
 ## Try out the app
 If you would like to try out **MovieBarcodeAnalyzeR** I have included the smoothed and unsmoothed barcodes of the trailer for *Escape Room* in the images folder of this repository that you can download.
