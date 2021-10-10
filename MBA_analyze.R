@@ -20,7 +20,7 @@ analyze <- tabPanel(
                                            radioButtons("barcode_type", label = ("Barcode type"),
                                                         choices = list("Smoothed" = 1, "Unsmoothed" = 2), 
                                                         selected = 1),
-                                           p(tags$b("Please note"), tags$br(), "Using an ", tags$b("unsmoothed barcodes"), " barcode will take much longer to process and result in large file sizes on download.
+                                           p(tags$b("Please note"), tags$br(), "Using an ", tags$b("unsmoothed barcode"), " will take much longer to process and result in large file sizes on download.
                                              Therefore, visualizations of unsmoothed barcodes will be returned as jpegs to minimise file sizes."),
                                            p("Visualizations of ", tags$b("smoothed barcodes"), " will be returned as a pdf file."),
                                            p("All downloaded images will have a resolution of 600 dpi regardless of file format.")
