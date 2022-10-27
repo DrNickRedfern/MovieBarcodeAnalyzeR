@@ -16,7 +16,7 @@ A movie barcode is a common method of sampling frames from a film and reducing t
 The goal of **MovieBarcodeAnalyzeR** is to open up computational approaches to analyzing colour in the cinema to users with no experience of using the statistical programming language R. With this app you can upload your movie barcode, extract and download data, and produce a range of visualizations and summaries in just a few minutes with no coding required. 
 
 ## Set up and use the app
-You can now use **MovieBarcodeAnalyzeR** in two ways: either download an executable file to install the app on a Windows machine or runt eh app remotely from Github.
+You can now use **MovieBarcodeAnalyzeR** in two ways: either download an executable file to install the app on a Windows machine or run the app remotely from Github.
 
 ### Download MovieBarcodeAnalyzeR as an executable (**Windows only**)
 **MovieBarcodeAnalyzeR is now available as an executable file for Windows.** Download the exe file and install in your desired directory (NB: requires administrator privileges to install). Please this will also install R 4.2.1 if required along with the packages required for the app to run. 
