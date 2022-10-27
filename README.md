@@ -21,6 +21,8 @@ You can now use **MovieBarcodeAnalyzeR** in two ways: either download an executa
 ### Download MovieBarcodeAnalyzeR as an executable (**Windows only**)
 **MovieBarcodeAnalyzeR is now available as an executable file for Windows.** Download the exe file and install in your desired directory (NB: requires administrator privileges to install). Please this will also install R 4.2.1 if required along with the packages required for the app to run. 
 
+Open the [releases](https://github.com/DrNickRedfern/MovieBarcodeAnalyzeR/releases) page and click the setup_MovieBarcodeAnalyzeR.exe to download the file.
+
 ### Run the app from GitHub
 There are four things you will need in order to run **MovieBarcodeAnalyzeR** from GitHub: R, Rstudio, a collection of R packages, and the code to initialise the app. All of the software and code required to run the app is freely available.
 
