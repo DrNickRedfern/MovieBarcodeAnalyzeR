@@ -1,6 +1,6 @@
 <!-- Since 6 January 2023 -->
 <p align="center">
-    <img alt="ViewCount" src="https://views.whatilearened.today/views/github/DrNickRedfern/github-clone-count-badge.svg">
+    <img alt="ViewCount" src="https://views.whatilearened.today/views/github/DrNickRedfern/MovieBarcodeAnalyzeR.svg">
     <a href='https://github.com/MShawon/github-clone-count-badge'><img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/DrNickRedfern/8b1044d6fa166a5c69da9d8abf187143/raw/clone.json&logo=github'></a>
 </p>
 
