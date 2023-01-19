@@ -1,3 +1,9 @@
+<!-- Since 6 January 2023 -->
+<p align="center">
+    <img alt="ViewCount" src="https://views.whatilearened.today/views/github/DrNickRedfern/github-clone-count-badge.svg">
+    <a href='https://github.com/MShawon/github-clone-count-badge'><img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/DrNickRedfern/8b1044d6fa166a5c69da9d8abf187143/raw/clone.json&logo=github'></a>
+</p>
+
 # MovieBarcodeAnalyzeR
 
 Analyzing colour in motion pictures is a computationally intensive process. It is therefore necessary to reduce the number of data points to something manageable with the computational resources of a desktop computer or laptop.
